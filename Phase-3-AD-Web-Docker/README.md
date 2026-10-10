@@ -1,0 +1,11 @@
+# Phase 3 - Months 7-12 - Windows AD, Web & Containers
+- PowerShell, AD Architecture, Kerberoasting, Pass-the-Hash
+    - Labs: THM Attacktive Directory, Attacking Kerberos, Breaching AD
+- AD Defense: Windows Event Logs + Sysmon (Event ID 4769)
+    - Labs: THM Windows Event Logs + Sysmon + Endpoint Security
+- Web Security: OWASP Top 10 (SQLi, XSS), WAF rules
+    - Labs: THM OWASP Top 10 + Juice Shop, Root-Me SQLi + XSS Stored
+- Containers: Docker basics, process isolation, image vulns
+    - Labs: THM Docker + Container Vulnerabilities, Root-Me I am groot
+- Target: eJPTv2 cert (~$250) or THM Jr Pentester cert
+- Projects: ad-event-detector (PowerShell/Python Event Log detector), docker-vulnerable-lab (docker-compose - localhost only, PRIVATE repo)
