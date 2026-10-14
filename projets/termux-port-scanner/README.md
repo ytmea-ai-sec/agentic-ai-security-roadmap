@@ -1,12 +1,10 @@
-# termux-port-scanner
+Termux Port Scanner
+A lightweight Python port scanner designed for Termux and Linux environments.
 
-Multithreaded TCP port scanner built on Android Termux - Offline first.
-
-**Features:**
-- Fast multithreaded scan (Python threading)
-- JSON export for Blue Team analysis
-- Works 100% offline on Termux
-
-**Usage:**
-```bash
-python3 scanner.py --target 127.0.0.1 --ports 1-1024 --output results.json
+Features
+Domain name resolution (DNS to IPv4)
+Port risk assessment (flags critical ports like SSH, SMB, FTP)
+Exception handling for network errors and manual interruption (CTRL+C)
+Automatic export of scan results to a text log file
+Usage
+python termux_port_scanner.py
